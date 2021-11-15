@@ -1,0 +1,317 @@
+/* navbar */
+.navbar{
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Viga' sans-serif;
+  font-size: 32px;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #990900;
+  min-width: 170px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown a:hover {background-color: #990900;} */
+
+.show {display: block;}
+
+
+/* jumbotron */
+.jumbotron{
+  height: 600px !important;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+/* jumbotron.container */
+.jumbotron .container{
+  position: relative;
+}
+
+.jumbotron img{
+  position: relative;
+  width: 170px;
+  border: 5px solid #990900;
+  margin-top: 130px;
+}
+
+.jumbotron h1{
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p{
+  color: white;
+  font-weight: bold;
+}
+
+.info-panel{
+ box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+ border-radius: 12px;
+ background-color: #990900;
+ margin-top: -80px;
+ padding: 1%;
+}
+
+.info-panel img{
+ width: 35%;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+
+.info-panel h4{
+ font-size: 16px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-top: 5px;
+}
+
+.info-panel p{
+ font-size: 15px;
+ color: #acacac;
+ font-weight: 200px;
+ margin-top: -5px;
+}
+
+/* workingspace */
+.workingspace{
+  margin-top: 150px;
+  text-align: center;
+}
+
+
+/* deskop version*/
+@media (min-width: 992px){
+  .navbar-brand, .nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  }
+
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover:after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #990900;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron{
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4{
+    font-size: 62px;
+  }
+
+  .workingspace{
+    text-align: left;
+  }
+
+  .testimonial h5{
+    font-size: 32px;
+  }
+
+}
+
+.depan{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.workingspace h3{
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.workingspace span{
+  font-weight: 600;
+}
+
+.workingspace p{
+  font-size: 18px;
+  color: black;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.btn{
+  background-color: #990900;
+}
+
+h4{
+  color: white;
+}
+
+/* testimonial */
+.testimonial{
+  margin-top: 100px;
+}
+
+.testimonial h5{
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.testimonial figure img.utama{
+  width: 150px;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.testimonial figure h5{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  color: #1c2c5d;
+}
+
+.testimonial figure p{
+  font-size: 12px;
+  color: black;
+  margin-top: -5px !important;
+}
+
+.testimonial figcaption{
+  text-align: center;
+}
+
+
+  .form-container{
+    position: relative;
+    margin-top: 50px;
+    background-color: #990900;
+    padding: 10px;
+    width: auto;
+  }
+
+  .form-container:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.image {
+  display: block;
+  height: auto;
+}
+.bottom-right{
+  text-align: right;
+}
+
+  .column {
+    background-color: #990900;
+    margin-top: 50px;
+    width: auto;
+    height:auto;
+    margin-bottom: 16px;
+    padding: 18px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+  }
+
+  hr{
+    background-color: white;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    font-size: auto;
+  }
+  h2{
+    color: white;
+  }
+  h4{
+    color: white;
+  }
+  h6{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+
+
+  .tulisan {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .tulisan:hover .image {
+    opacity: 0.3;
+  }
+
+  .tulisan:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #990900;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }

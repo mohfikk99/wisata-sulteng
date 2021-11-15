@@ -1,0 +1,18 @@
+buatkan kone pas di bagiann my profil  sesuai dengan sseion seperti contohnya ini 
+$data = array(
+      'username' => $this->input->post('username'),
+      'password' => md5($this->input->post('password'))
+    );
+    $hasil = $this->Login_model->cek_user($data);
+    if($hasil == 1){
+      $log_info = array(
+        'username' => $this->input->post('username'),
+        'logged_in' => TRUE
+      );
+      $this->session->set_userdata($log_info);
+      redirect(site_url('Admin'));
+    }else {
+      $pesan = 'username/password salah';
+      $this->session->set_flashdata('error', $pesan);
+      redirect(site_url('home/login'));
+    }

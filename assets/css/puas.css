@@ -1,0 +1,228 @@
+
+/* jumbotron */
+.jumbotron{
+  background-size: auto;
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+/* jumbotron.container */
+.jumbotron .container{
+  position: relative;
+}
+
+.jumbotron img{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #990900;
+  margin-top: 50px;
+}
+
+.jumbotron h1{
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p{
+  color: white;
+  font-weight: bold;
+}
+
+
+  .info-panel{
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+   border-radius: 12px;
+   background-color: #990900;
+   margin-top: -60px;
+   padding: 1%;
+ }
+
+  .info-panel img{
+   width: 35%;
+   margin-right: 20px;
+   margin-bottom: 20px;
+  }
+
+  .info-panel h4{
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: 5px;
+  }
+
+  .info-panel p{
+   font-size: 15px;
+   color: #acacac;
+   font-weight: 200px;
+   margin-top: -5px;
+  }
+
+
+.workingspace{
+  margin-top: 150px;
+  text-align: center;
+}
+
+@media (min-width: 992px){
+  .workingspace{
+    text-align: left;
+  }
+
+  .testimonial h5{
+    font-size: 32px;
+  }
+}
+
+.depan{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.workingspace h3{
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.workingspace span{
+  font-weight: 600;
+}
+
+.workingspace p{
+  font-size: 18px;
+  color: black;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+/* testimonial */
+.testimonial{
+  margin-top: 100px;
+}
+
+.testimonial h5{
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.testimonial figure img.utama{
+  width: 150px;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.testimonial figure h5{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  color: #1c2c5d;
+}
+
+.testimonial figure p{
+  font-size: 12px;
+  color: black;
+  margin-top: -5px !important;
+}
+
+.testimonial figcaption{
+  text-align: center;
+}
+
+/* deskop version*/
+ @media (min-width: 992px){
+
+  .workingspace{
+    text-align: left;
+  }
+
+  .testimonial h5{
+    font-size: 32px;
+  }
+}
+
+
+.btn{
+  background-color: #990900;
+}
+
+h4{
+  color: white;
+}
+
+.tersaji{
+  color:black;
+}
+
+.Beauty{
+  color: #aaa !important;
+}
+
+.pas{
+  margin-top: 50px;
+  background-color: #eee;
+}
+
+.column {
+  background-color: #990900;
+  margin-top: 50px;
+  width: auto;
+  height:auto;
+  margin-bottom: 16px;
+  padding: 18px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+
+  .tulisan {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .tulisan:hover .image {
+    opacity: 0.3;
+  }
+
+  .tulisan:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #990900;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+footer{
+  margin-top: 100%;
+}

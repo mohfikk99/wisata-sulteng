@@ -1,0 +1,37 @@
+SSH IP = 185.224.138.112
+
+SSH PORT = 65002
+
+USERNAME SSH = u408926571
+
+PASSWORD SSH/FTP = Samalili051099
+
+
+email = admin@wisatasulteng.com
+
+password = xU3E2rQk|
+
+smtp.hostinger.co.id
+
+port = 587
+
+name server = ns1.dns-parking.com
+
+name server = ns2.dns-parking.com
+
+
+mysql database
+
+password = 5Iy&?/tJ7c7
+
+nama database = wisatasulteng (u408926571_)
+
+username = mohfikk (u408926571_)
+
+
+password domain = L0/]gNJj
+
+
+https://wisatasulteng.com/
+
+secret key = Hfgjq!7rsj
